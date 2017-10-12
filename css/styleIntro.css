@@ -36,15 +36,16 @@ html, body {
 
 .content h1 {
   font-family: 'Yantramanav', sans-serif;
-  font-size: 600%;
+  font-size: 400%;
   font-weight: 100;
   color: #f1f1f1;
   line-height: 70%; /*reducing space between lines*/
+  transition: all 0.5s;
 }
 
 .btn {
   font-family: 'Montserrat', sans-serif;
-  font-size: 135%;
+  font-size: 100%;
   font-weight: 400;
   color: #FEE3AD;
   text-transform: uppercase;
@@ -70,10 +71,10 @@ html, body {
     padding-bottom: 25%;
   }
   .content h1 {
-    font-size: 500%;
+    font-size: 350%;
   }
   .btn {
-    font-size: 130%;
+    font-size: 90%;
     padding: 9px 17px;
   }
 }
@@ -83,10 +84,10 @@ html, body {
     padding-bottom: 30%;
   }
   .content h1 {
-    font-size: 450%;
+    font-size: 300%;
   }
   .btn {
-    font-size: 120%;
+    font-size: 80%;
     padding: 7px 15px;
   }
 }
@@ -96,10 +97,10 @@ html, body {
     padding-bottom: 35%;
   }
   .content h1 {
-    font-size: 400%;
+    font-size: 300%;
   }
   .btn {
-    font-size: 110%;
+    font-size: 70%;
     padding: 6px 14;
   }
 }

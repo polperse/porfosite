@@ -38,8 +38,35 @@ h2.dark {
   height: 100%;
 }
 
-.logo {
+.main-header {
+  height: 100%;
+  width: 100%;
+  margin:auto;
+  background: url('img/me.jpg') no-repeat 50% 50%;
+  display: table;
+  top: 0;
+  background-size: cover;
+}
+
+/*.parallax {
+	background: url("img/me.jpg") repeat fixed 100%;
+	opacity: .75;
+}
+.parallax-inner {
+	padding-top: 20%;
+}*/
+
+.text-typing {
+  font: 300 2em/1 'Open Sans', sans-serif;
+  color: #222222;
   padding: 2%;
+  position: relative;
+  top: 50%;
+  width: 55%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.4);
+  margin-left: 5%;
+  border-radius: 6px;
 }
 
 .social {
@@ -62,7 +89,7 @@ h2.dark {
 }
 
 #header {
-  background-color: #afded4;
+  /*background-color: #afded4;*/
 }
 
 #welcome-text {
@@ -118,6 +145,10 @@ h2.dark {
   .social i {
     font-size: 2em;
   }
+  .text-typing {
+    font-size: 150%;
+    transform: translateY(-50%);
+  }
 }
 
 @media all and (min-width: 768px) {
@@ -159,10 +190,19 @@ h2.dark {
     max-width: 40%;
     padding: 5% 0;
   }
+  .text-typing {
+    font-size: 130%;
+    transform: translateY(10%);
+  }
 }
 
 @media all and (max-width: 500px) {
   .social i {
     font-size: 1.25em;
+  }
+  .text-typing {
+    font-size: 95%;
+    transform: translateY(5%);
+    width: 65%;
   }
 }
