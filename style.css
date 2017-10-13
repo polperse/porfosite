@@ -99,6 +99,7 @@ h2.dark {
 .pimg4 {
   background-image: url("img/ny2-m.png");
   min-height: 100%;
+  background-attachment:scroll;
 }
 
 .social {
@@ -163,7 +164,7 @@ h2.dark {
 
 #footer {
   background-color: #34495e;
-  border-top: 2px solid #f6931e;
+  /*border-top: 2px solid #f6931e;*/
   padding: 2%;
 }
 
@@ -236,5 +237,10 @@ h2.dark {
     font-size: 95%;
     transform: translateY(5%);
     width: 65%;
+  }
+  .pimg4 {
+    background-image: url("img/ny2-small.png") no-repeat;
+    background-size:cover;
+    min-height: 50%;
   }
 }
