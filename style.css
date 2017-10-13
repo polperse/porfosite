@@ -69,6 +69,36 @@ h2.dark {
   border-radius: 6px;
 }
 
+.pimg1, .pimg2, .pimg3, .pimg4 {
+  position: relative;
+  opacity: 0.80;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+
+.pimg1 {
+  background-image: url("img/ux-team.jpg");
+  min-height: 100%;
+}
+
+.pimg2 {
+  background-image: url("img/next4weeks.jpg");
+  min-height: 80%;
+}
+
+.pimg3 {
+  background-image: url("img/sfweather.jpg");
+  min-height: 80%;
+}
+
+.pimg4 {
+  background-image: url("img/ny2-m.png");
+  min-height: 100%;
+}
+
 .social {
   list-style-type: none;
 }
@@ -81,11 +111,11 @@ h2.dark {
   font-size: 3em;
   margin: 1%;
   padding: 5%;
-  color: #fff;
+  color: #34495e;
 }
 
 .social i:hover {
-  color: #34495e;
+  color: #ffffff;
 }
 
 #header {
