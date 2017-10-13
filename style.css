@@ -46,6 +46,7 @@ h2.dark {
   display: table;
   top: 0;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 /*.parallax {
@@ -71,10 +72,11 @@ h2.dark {
 
 .pimg1, .pimg2, .pimg3, .pimg4 {
   position: relative;
-  opacity: 0.80;
+  opacity: 0.90;
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
+  min-width: 100%;
+  /*background-repeat: no-repeat;*/
 
   background-attachment: fixed;
 }
@@ -86,7 +88,7 @@ h2.dark {
 
 .pimg2 {
   background-image: url("img/next4weeks.jpg");
-  min-height: 80%;
+  min-height: 400px;
 }
 
 .pimg3 {
