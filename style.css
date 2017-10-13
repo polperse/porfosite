@@ -87,7 +87,7 @@ h2.dark {
 }
 
 .pimg2 {
-  background-image: url("img/next4weeks.jpg");
+  background-image: url("img/next4weeks-2.jpg");
   min-height: 400px;
 }
 
@@ -97,7 +97,7 @@ h2.dark {
 }
 
 .pimg4 {
-  background-image: url("img/ny2-m.png");
+  background-image: url("img/ny2-medium.jpg");
   min-height: 100%;
   background-attachment:scroll;
 }
@@ -271,11 +271,25 @@ h2.dark {
     transform: translateY(5%);
     width: 65%;
   }
-  .pimg1, .pimg2, .pimg3 {
+  .pimg1, .pimg2, .pimg3, .main-header {
     background-attachment: scroll;
   }
+  .pimg1 {
+    background-image: url("img/ux-team-small.jpg");
+    min-height: 100%;
+  }
+
+  .pimg2 {
+    background-image: url("img/next4weeks-2.jpg");
+    min-height: 400px;
+  }
+
+  .pimg3 {
+    background-image: url("img/ux-whiteboard-m-small.png");
+    min-height: 80%;
+  }
   .pimg4 {
-    background-image: url("img/ny2-small.png");
+    background-image: url("img/ny2-small-2.png");
     min-height: 50%;
   }
 }
