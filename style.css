@@ -21,7 +21,7 @@ img {
 
 h2 {
   font: 300 2em/1 'Raleway', sans-serif;
-  color: #fff;
+  /*color: #fff;*/
   padding: 2%;
   position: relative;
   top: 50%;
@@ -76,7 +76,7 @@ h2.dark {
   background-position: center;
   background-size: cover;
   min-width: 100%;
-  /*background-repeat: no-repeat;*/
+  background-repeat: no-repeat;
 
   background-attachment: fixed;
 }
@@ -100,6 +100,39 @@ h2.dark {
   background-image: url("img/ny2-m.png");
   min-height: 100%;
   background-attachment:scroll;
+}
+
+.section-parallax {
+  padding: 5% 10%;
+}
+
+.section-light {
+  background-color: #f4f4f4;
+  color: #666666;
+}
+
+.section-dark {
+  background-color: #282e34;
+  color: #dddddd;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  color: #000;
+  font-size: 150%;
+  letter-spacing: 1%;
+  text-transform: uppercase;
+}
+
+.border-ptext {
+  background-color: #111;
+  color: #fff;
+  padding: 3%;
+  opacity: 0.8;
+  border-radius: 6px;
 }
 
 .social {
@@ -238,9 +271,11 @@ h2.dark {
     transform: translateY(5%);
     width: 65%;
   }
+  .pimg1, .pimg2, .pimg3 {
+    background-attachment: scroll;
+  }
   .pimg4 {
-    background-image: url("img/ny2-small.png") no-repeat;
-    background-size:cover;
+    background-image: url("img/ny2-small.png");
     min-height: 50%;
   }
 }
