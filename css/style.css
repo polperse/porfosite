@@ -42,7 +42,7 @@ h2.dark {
   height: 100%;
   width: 100%;
   margin:auto;
-  background: url('img/me.jpg') no-repeat 50% 50%;
+  background: url('../img/me.jpg') no-repeat 50% 50%;
   display: table;
   top: 0;
   background-size: cover;
@@ -70,7 +70,7 @@ h2.dark {
   border-radius: 6px;
 }
 
-.pimg1, .pimg2, .pimg3, .pimg4 {
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7 {
   position: relative;
   opacity: 0.90;
   background-position: center;
@@ -82,24 +82,41 @@ h2.dark {
 }
 
 .pimg1 {
-  background-image: url("img/ux-team.jpg");
+  background-image: url("../img/ux-team.jpg");
   min-height: 100%;
 }
 
 .pimg2 {
-  background-image: url("img/next4weeks-2.jpg");
-  min-height: 400px;
+  background-image: url("../img/voting_sessions.jpg");
+  min-height: 80%;
 }
 
 .pimg3 {
-  background-image: url("img/sfweather.jpg");
+  background-image: url("../img/sfweather.jpg");
   min-height: 80%;
 }
 
 .pimg4 {
-  background-image: url("img/ny2-medium.jpg");
-  min-height: 100%;
+  background-image: url("../img/next4weeks-2.jpg");
+  min-height: 80%;
+  /*background-attachment:scroll;*/
+}
+
+.pimg5 {
+  background-image: url("../img/data-v2.jpg");
+  min-height: 80%;
+  /*background-attachment:scroll;*/
+}
+
+.pimg6 {
+  background-image: url("../img/ny2-medium.jpg");
+  min-height: 80%;
   background-attachment:scroll;
+}
+
+.pimg7 {
+  background-image: url("../img/argenclix.jpg");
+  min-height: 80%;
 }
 
 .section-parallax {
@@ -275,21 +292,21 @@ h2.dark {
     background-attachment: scroll;
   }
   .pimg1 {
-    background-image: url("img/ux-team-small.jpg");
+    background-image: url("../img/ux-team-small.jpg");
     min-height: 100%;
   }
 
   .pimg2 {
-    background-image: url("img/next4weeks-2.jpg");
-    min-height: 60%;
+    background-image: url("../img/voting_sessions.jpg");
+    min-height: 80%;
   }
 
   .pimg3 {
-    background-image: url("img/ux-whiteboard-m-small.png");
+    background-image: url("../img/ux-whiteboard-m-small.png");
     min-height: 80%;
   }
   .pimg4 {
-    background-image: url("img/ny2-small-2.png");
+    background-image: url("../img/ny2-small-2.png");
     min-height: 50%;
   }
 }
